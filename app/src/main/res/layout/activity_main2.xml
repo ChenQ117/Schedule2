@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_sign3"
+    tools:context=".Main2Activity"
+    >
+
+    <!--    android:background="@color/color_gray"-->
+
+<!--   <androidx.support.v7.widget.Toolbsr-->
+<!--       android:id = "@+id/toolbar"-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="?attr/actionBarSize"-->
+<!--       android:background="?attr/colorPrimary"-->
+<!--       android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+<!--       app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>-->
+    //周期信息
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/color_yellow"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_Menu"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="节\\周"/>
+        <TextView
+            android:id="@+id/tv_Monday"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="周一"/>
+        <TextView
+            android:id="@+id/tv_Tuesday"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="周二"/>
+        <TextView
+            android:id="@+id/tv_Wednesday"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="周三"/>
+        <TextView
+            android:id="@+id/tv_Thursday"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="周四"/>
+
+        <TextView
+            android:id="@+id/tv_Friday"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="周五" />
+
+        <TextView
+            android:id="@+id/tv_Saturday"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="周六"/>
+        <TextView
+            android:id="@+id/tv_Sunday"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="周日"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--课程表-->
+
+        <LinearLayout
+            android:id="@+id/left_view_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <!--左侧"节数"布局-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/lesson_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_blue"
+                    android:text="第1节"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/lesson_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_blue"
+                    android:text="第2节"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/lesson_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_blue"
+                    android:text="第3节"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/lesson_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_blue"
+                    android:text="第4节"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/lesson_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_blue"
+                    android:text="第5节"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/lesson_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_blue"
+                    android:text="第6节"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/lesson_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_blue"
+                    android:text="第7节"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/lesson_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_blue"
+                    android:text="第8节"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/lesson_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_blue"
+                    android:text="第9节"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/lesson_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_blue"
+                    android:text="第10节"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/lesson_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="67dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:background="@color/color_blue"
+                    android:text="第11节"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+            <!--星期一到星期天的布局-->
+            <RelativeLayout
+                android:id="@+id/monday"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:orientation="vertical" />
+
+            <RelativeLayout
+                android:id="@+id/tuesday"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:orientation="vertical" />
+
+            <RelativeLayout
+                android:id="@+id/wednesday"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:orientation="vertical" />
+
+            <RelativeLayout
+                android:id="@+id/thursday"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:orientation="vertical" />
+
+            <RelativeLayout
+                android:id="@+id/friday"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:orientation="vertical" />
+
+            <RelativeLayout
+                android:id="@+id/saturday"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" />
+
+            <RelativeLayout
+                android:id="@+id/sunday"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:orientation="vertical" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_add"
+            android:onClick="click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="添加课程"
+            android:gravity="center"/>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
